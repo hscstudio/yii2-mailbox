@@ -10,19 +10,23 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist hscstudio/yii2-mailbox "*"
+php composer.phar require --prefer-dist hscstudio/yii2-mailbox "1.0"
 ```
 
 or add
 
 ```
-"hscstudio/yii2-mailbox": "*"
+"hscstudio/yii2-mailbox": "1.0"
 ```
 
 to the require section of your `composer.json` file.
 
 
 Database migration
+
+import from [mailbox.sql](migrations/mailbox.sql)
+
+or
 
 ```
 yii migrate --migrationPath=@hscstudio\mailbox\migrations
@@ -31,7 +35,7 @@ yii migrate --migrationPath=@hscstudio\mailbox\migrations
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \hscstudio\mailbox\AutoloadExample::widget(); ?>```
+Instantly, only access 
+```
+index.php?r=mailbox
+```
