@@ -1,0 +1,28 @@
+{
+    "name": "hscstudio/yii2-mailbox",
+    "description": "Simple Mailbox For Yii 2.0",
+    "type": "yii2-extension",
+    "keywords": "["yii2","extension"]",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Hafid Mukhlasin",
+            "email": "hafidmukhlasin@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+    "require": {
+        "yiisoft/yii2": "*",
+		"kartik-v/yii2-widgets": "*",
+		"kartik-v/yii2-icons": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "hscstudio\\mailbox\\": ""
+        }
+    },
+	"extra": {
+        "bootstrap": "hscstudio\\mailbox\\Bootstrap"
+	}
+}
