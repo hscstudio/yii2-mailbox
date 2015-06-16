@@ -16,6 +16,7 @@
         "yiisoft/yii2": "*",
 		"kartik-v/yii2-widgets": "*",
 		"kartik-v/yii2-icons": "*",
+		"hscstudio/yii2-helpers": "*"
     },
     "autoload": {
         "psr-4": {
