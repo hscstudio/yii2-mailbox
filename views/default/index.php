@@ -6,8 +6,6 @@ use yii\bootstrap\Nav;
 use hscstudio\helpers\assets\LiveStampJsAsset;
 $LiveStampJsAsset = LiveStampJsAsset::register($this);
 
-$userClass = \Yii::$app->getUser()->identityClass;
-
 /**
  * @var yii\web\View $this
  * @var yii\data\ActiveDataProvider $dataProvider
@@ -73,7 +71,8 @@ $this->params['breadcrumbs'][] = $this->title;
 				],
 				[
 					'attribute' => 'sender',
-					'value' => function($data)use($userClass){
+					'value' => function($data){
+						$userClass = \Yii::$app->getUser()->identityClass;
 						$user = $userClass::find()
 							->where([
 								'id' => $data->sender,

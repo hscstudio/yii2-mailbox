@@ -22,6 +22,12 @@ or add
 to the require section of your `composer.json` file.
 
 
+Database migration
+
+```
+yii migrate --migrationPath=@hscstudio\mailbox\migrations
+```
+
 Usage
 -----
 
