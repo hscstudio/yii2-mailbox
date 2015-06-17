@@ -43,13 +43,31 @@ index.php?r=mailbox
 we can customize the view by copying the default view `@hscstudio/mailbox/views/default` to `@app/views/mailbox` and then add the following config.
 
 ```	
-	...,
-	'modules' => [
-		...,
-		'mailbox' => [		
-			'view' => '@app/views/mailbox',			
-		],
-		...,
+'modules' => [
+	'mailbox' => [		
+		'view' => '@app/views/mailbox',			
 	],
-	...
+],
 ```
+
+## How to Contribute
+
+This tools is an OpenSource project so your contribution is very welcome.
+
+In order to get started:
+
+- Install this in your local (read installation section)
+- Clone this repository.
+- Check [README.md](README.md).
+- Send [pull requests](https://github.com/hscstudio/yii2-mailbox/pulls).
+
+Aside from contributing via pull requests you may [submit issues](https://github.com/hscstudio/yii2-mailbox/issues).
+
+## Our Team
+
+- [Hafid Mukhlasin](http://www.hafidmukhlasin.com) - Project Leader / Indonesian Yii developer.
+
+We'd like to thank our [contributors](https://github.com/hscstudio/yii2-mailbox/graphs/contributors) for improving
+this tools. Thank you!
+
+Jakarta - Indonesia
