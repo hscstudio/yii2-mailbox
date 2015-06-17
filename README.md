@@ -2,8 +2,7 @@ yii2-mailbox
 ============
 Simple Mailbox For Yii 2.0
 
-Installation
-------------
+## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
@@ -22,7 +21,7 @@ or add
 to the require section of your `composer.json` file.
 
 
-Database migration
+## Database migration
 
 import from [mailbox.sql](migrations/mailbox.sql)
 
@@ -32,10 +31,22 @@ or
 yii migrate --migrationPath=@hscstudio\mailbox\migrations
 ```
 
-Usage
------
+## Usage
 
 Instantly, only access 
 ```
 index.php?r=mailbox
+```
+
+## Customize View
+
+You can customize view by copy default view @hscstudio/mailbox/views/default to 
+@app/views/mailbox, and then add it in config
+
+```
+	'modules' => [
+		'mailbox' => [		
+			'view' => '@app/views/mailbox',			
+		]
+	],
 ```
