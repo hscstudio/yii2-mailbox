@@ -40,12 +40,16 @@ index.php?r=mailbox
 
 ## Customize View
 
-we can customize the view by copying the default view @hscstudio/mailbox/views/default to @app/views/mailbox and then add the following config.
+we can customize the view by copying the default view `@hscstudio/mailbox/views/default` to `@app/views/mailbox` and then add the following config.
 
-```
+```	
+	...,
 	'modules' => [
+		...,
 		'mailbox' => [		
 			'view' => '@app/views/mailbox',			
-		]
+		],
+		...,
 	],
+	...
 ```
