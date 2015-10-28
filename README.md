@@ -2,6 +2,8 @@ yii2-mailbox
 ============
 Simple Mailbox For Yii 2.0
 
+[![Latest Stable Version](https://poser.pugx.org/hscstudio/yii2-mailbox/v/stable)](https://packagist.org/packages/hscstudio/yii2-mailbox) [![Total Downloads](https://poser.pugx.org/hscstudio/yii2-mailbox/downloads)](https://packagist.org/packages/hscstudio/yii2-mailbox) [![Latest Unstable Version](https://poser.pugx.org/hscstudio/yii2-mailbox/v/unstable)](https://packagist.org/packages/hscstudio/yii2-mailbox) [![License](https://poser.pugx.org/hscstudio/yii2-mailbox/license)](https://packagist.org/packages/hscstudio/yii2-mailbox)
+
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
